@@ -1,0 +1,16 @@
+p, h1, h2, h3, a {
+	font-family: 'Roboto', sans-serif;
+}
+
+.loud-voice, h1 {
+	font-size: 2em;
+}
+
+.medium-voice, h2 {
+	font-size: 1.5em;
+}
+
+.calm-voice, p, a {
+	font-size: .9em;
+	letter-spacing: 1px;
+}

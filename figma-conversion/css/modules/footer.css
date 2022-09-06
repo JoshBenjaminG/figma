@@ -15,3 +15,11 @@
 .footer_7 div {
 	max-width: 300px;
 }
+
+.footer_7 nav a {
+	color: #a7bcf6;
+}
+
+.footer_7 nav p {
+	color: var(--white);
+}

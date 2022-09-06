@@ -7,7 +7,7 @@
 
 			<header class="header_23">
 
-				<nav class="logo">Logoipsum</nav>
+				<nav><img src="images/logoipsum.svg" alt="" class="logo"></nav>
 
 				<nav class='links'>
 					<a href="">Home</a>
@@ -19,7 +19,7 @@
 
 				<nav class='links'>
 					<a href="">EN</a>
-					<a href="">Login</a>
+					<a href="" class="blue-button">LogIn</a>
 				</nav>
 
 			</header>
