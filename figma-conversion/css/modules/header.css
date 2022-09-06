@@ -1,0 +1,13 @@
+.header_23 {
+	display: flex;
+	justify-content: space-between;
+}
+
+.header_23 nav { 
+	display: flex;
+	flex-direction: row;
+}
+
+.header_23 .links a{
+	margin: 0px 5px;
+}
