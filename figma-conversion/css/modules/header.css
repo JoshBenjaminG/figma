@@ -1,17 +1,17 @@
-.header_23 {
+.header_1 {
 	display: flex;
 	justify-content: space-between;
 }
 
-.header_23 .links {
+.header_1 .links {
 	align-items: center;
 }
 
-.header_23 nav { 
+.header_1 nav { 
 	display: flex;
 	flex-direction: row;
 }
 
-.header_23 .links a{
+.header_1 .links a{
 	margin: 0px 10px;
 }

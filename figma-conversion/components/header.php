@@ -1,11 +1,15 @@
+<?php 
 
+$actions = $module["actions"];
+$style = $module["type"];
 
+?>
 	
 	<body>
 		<section class='site-header'>
 		<inner-column>
 
-			<header class="header_23">
+			<header class="<?=$style?>">
 
 				<nav><img src="images/logoipsum.svg" alt="" class="logo"></nav>
 
@@ -18,8 +22,9 @@
 				</nav>
 
 				<nav class='links'>
-					<a href="">EN</a>
-					<a href="" class="blue-button">LogIn</a>
+				<?php foreach($actions as $action) { ?>
+					<a href="" class="<?=$action["link_class"]?>"><?=$action["link"]?></a>
+				<?php } ?>
 				</nav>
 
 			</header>
