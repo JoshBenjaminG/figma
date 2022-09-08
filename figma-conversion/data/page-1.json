@@ -62,6 +62,54 @@
     ]
   },
   {
+    "module": "clients",
+    "header": "clients header 1",
+    "content": "clients content 1",
+    "type": "clients_1",
+    "reviews": [
+      {
+        "rating": "rating 1",
+        "content": "review content 1",
+        "name": "josh",
+        "review-image": ""
+      },
+      {
+        "rating": "rating 1",
+        "content": "review content 1",
+        "name": "josh",
+        "review-image": ""
+      }
+    ]
+  },
+  {
+    "module": "call-to-action",
+    "header": "cta header 1",
+    "content": "cta content 1",
+    "type": "cta_1",
+    "actions": [
+      {
+        "link": "Get Free Quote",
+        "link_class": "blue-button"
+      }
+    ]
+  },
+  {
+    "module": "FAQ",
+    "header": "FAQ header 1",
+    "content": "FAQ content 1",
+    "type": "cta_1",
+    "details": [
+      {
+        "summary": "the summary",
+        "content": "the content"
+      },
+      {
+        "summary": "the summary",
+        "content": "the content"
+      }
+    ]
+  },
+  {
     "module": "footer"
   }
 ]

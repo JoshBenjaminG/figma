@@ -26,4 +26,4 @@ $articles = $module["articles"];
 		</div>
 	</landing>
 </inner-column>
-</section>image
+</section>

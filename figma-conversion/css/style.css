@@ -27,8 +27,11 @@
 @import 'modules/footer.css';
 @import 'modules/landing.css';
 @import 'modules/center-content.css';
+@import 'modules/clients.css';
+@import 'modules/call-to-action.css';
+@import 'modules/FAQ.css';
 
-.logo {
+.logo { 
   max-width: 150px;
 }
 
