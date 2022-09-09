@@ -21,6 +21,7 @@ p a {
 
 picture {
 	display: block;
+	max-width: 900px;
 }
 
 img {

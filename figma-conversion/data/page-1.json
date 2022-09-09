@@ -32,32 +32,34 @@
   },
   {
     "module": "center_content",
-    "header": "center content header 1",
-    "content": "center content content 1",
+    "header": "Etiam Nulla Lectus Amet Nunc Molestie At Vulputate.",
+    "content": "Lorem ipsum, dolor sit amet consectetur adipisicing, elit.",
+    "preheader": "Lorem ipsum, dolor sit amet consectetur adipisicing, elit.",
+    "img": "https://peprojects.dev/images/landscape.jpg",
     "type": "center_content_1"
   },
   {
     "module": "feature",
-    "header": "feature header 1",
-    "content": "feature content 1",
+    "header": "Etiam Nulla Lectus Amet Nunc Molestie At Vulputate.",
+    "content": "Lorem ipsum, dolor sit amet consectetur adipisicing, elit.",
     "type": "feature_1",
     "image": "https://peprojects.dev/images/landscape.jpg",
     "articles": [
       {
-        "title": "article title 1",
-        "content": "article content 1"
+        "title": "Etiam Nulla Lectus Amet Nunc Molestie At Vulputate.",
+        "content": "Lorem ipsum, dolor sit amet consectetur adipisicing, elit."
       },
       {
-        "title": "article title 1",
-        "content": "article content 1"
+        "title": "Etiam Nulla Lectus Amet Nunc Molestie At Vulputate.",
+        "content": "Lorem ipsum, dolor sit amet consectetur adipisicing, elit."
       },
       {
-        "title": "article title 1",
-        "content": "article content 1"
+        "title": "Etiam Nulla Lectus Amet Nunc Molestie At Vulputate.",
+        "content": "Lorem ipsum, dolor sit amet consectetur adipisicing, elit."
       },
       {
-        "title": "article title 1",
-        "content": "article content 1"
+        "title": "Etiam Nulla Lectus Amet Nunc Molestie At Vulputate.",
+        "content": "Lorem ipsum, dolor sit amet consectetur adipisicing, elit."
       }
     ]
   },

@@ -3,7 +3,11 @@
 }
 
 .site-header inner-column {
-	max-width: 1300px;
+	display:  block;
+	max-width: 1300px; /* could be a variable in settings */
+	margin-right: auto;
+	margin-left: auto;
+	padding: 15px 0px; /* a default */
 }
 
 .header_1 {

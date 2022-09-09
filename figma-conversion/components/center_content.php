@@ -1,11 +1,22 @@
+<?php 
+
+$img = $module["img"];
+$header = $module["header"];
+$content = $module["content"];
+$preHeader = $module["preheader"];
+
+?>
+
 <section class="center-content">
 <inner-column>
 	<center-content>
-		<p>Lorem ipsum, dolor sit amet consectetur adipisicing, elit.</p>
-		<h1 class="loud-voice">Lorem ipsum, dolor sit amet consectetur adipisicing, elit.</h1>
-		<p>Lorem ipsum, dolor sit amet consectetur adipisicing, elit.</p>
+		<text-content>
+			<p><?=$preHeader?></p>
+			<h1 class="loud-voice"><?=$header?></h1>
+			<p><?=$content?></p>
+		</text-content>
 		<picture>
-			<img src="https://peprojects.dev/images/landscape.jpg" alt="">
+			<img src="<?=$img?>" alt="">
 		</picture>
 	</center-content>
 </inner-column>

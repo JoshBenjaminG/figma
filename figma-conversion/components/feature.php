@@ -14,7 +14,7 @@ $articles = $module["articles"];
 		<h1 class="loud-voice"><?=$header?></h1>
 		<p><?=$content?></p>
 		<picture>
-			<img src="<?=$image?>" alt="">feature
+			<img src="<?=$image?>" alt="">
 		</picture>
 		<div>
 			<?php foreach($articles as $article) { ?>
