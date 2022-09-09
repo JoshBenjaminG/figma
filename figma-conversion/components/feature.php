@@ -8,13 +8,13 @@ $articles = $module["articles"];
 
 ?>
 
-<section class="landing">
+<section class="feature">
 <inner-column>
 	<landing class="<?=$style?>">
 		<h1><?=$header?></h1>
 		<p><?=$content?></p>
 		<picture>
-			<img src="<?=$image?>" alt="">
+			<img src="<?=$image?>" alt="">feature
 		</picture>
 		<div>
 			<?php foreach($articles as $article) { ?>

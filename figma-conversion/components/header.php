@@ -6,7 +6,7 @@ $style = $module["type"];
 ?>
 	
 	<body>
-		<section class='site-header'>
+		<div class='site-header'>
 		<inner-column>
 
 			<header class="<?=$style?>">
@@ -30,7 +30,7 @@ $style = $module["type"];
 			</header>
 
 		</inner-column>
-		</section>
+		</div>
 
 
 		<main class='page-content'>

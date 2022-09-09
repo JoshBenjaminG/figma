@@ -7,3 +7,9 @@ landing {
 landing div {
 	flex-direction: row;
 }
+
+.landing {
+	background-image: url("../page-1-background.svg");
+	background-repeat: no-repeat;
+  	background-size: cover;
+}

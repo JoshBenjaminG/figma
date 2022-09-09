@@ -13,8 +13,15 @@ main {
 
 inner-column {
 	display:  block;
-	max-width: 1000px; /* could be a variable in settings */
+	max-width: 1200px; /* could be a variable in settings */
 	margin-right: auto;
 	margin-left: auto;
-	padding: 45px 15px; /* a default */
+	padding: 15px 15px; /* a default */
+}
+
+section inner-column{
+	min-height: 90vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
