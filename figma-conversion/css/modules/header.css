@@ -2,6 +2,10 @@
 	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
+.site-header inner-column {
+	max-width: 1300px;
+}
+
 .header_1 {
 	display: flex;
 	justify-content: space-between;

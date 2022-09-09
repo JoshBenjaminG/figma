@@ -1,26 +1,28 @@
 p, h1, h2, h3, a {
 	font-family: 'Roboto', sans-serif;
-	letter-spacing: ;
-	line-height: 1.5;
 	text-align: center;
 }
 
 .announce-voice {
 	font-size: clamp(32px, 10vw, 64px);
 	font-weight: 500;
+
 }
 
 .loud-voice {
 	font-size: clamp(28px, 8vw, 55px);
 	font-weight: 500;
+	line-height: 1.5;
 }
 
 .medium-voice, h2 {
 	font-size: 1.5em;
+	line-height: 1.5;
 }
 
 .calm-voice, p, a {
 	max-width: 60ch;
 	font-size: clamp(14px, 1.5vw, 18px);
 	color: rgba(0, 0, 0, 0.8);
+	line-height: 1.5;
 }
