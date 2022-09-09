@@ -11,7 +11,7 @@ $reviews = $module["reviews"];
 <section class="clients">
 <inner-column>
 	<clients class="<?=$style?>">
-		<h1><?=$header?></h1>
+		<h1 class="loud-voice"><?=$header?></h1>
 		<p><?=$content?></p>
 		<div>
 			<?php foreach($reviews as $review) { 

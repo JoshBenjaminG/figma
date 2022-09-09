@@ -11,7 +11,7 @@ $actions = $module["actions"];
 <inner-column>
 	<clients class="<?=$style?>">
 		<p><?=$content?></p>
-		<h1><?=$header?></h1>
+		<h1 class="loud-voice"><?=$header?></h1>
 		<div>
 			<?php foreach($actions as $action) { ?>
 					<button href="" class="<?=$action["link_class"]?>"><?=$action["link"]?></button>

@@ -10,8 +10,10 @@ $style = $module["type"];
 <section class="landing">
 <inner-column>
 	<landing class="<?=$style?>">
-		<h1><?=$header?></h1>
-		<p><?=$content?></p>
+		<text-content>
+			<h1 class="announce-voice"><?=$header?></h1>
+			<p><?=$content?></p>
+		</text-content>
 		<div>
 			<?php foreach($actions as $action) { ?>
 					<button href="" class="<?=$action["link_class"]?>"><?=$action["link"]?></button>

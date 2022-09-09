@@ -17,8 +17,8 @@
   {
     "module": "landing",
     "type": "landing_1",
-    "header": "Landing 1 header",
-    "content": "landing 1 content",
+    "header": "Arcu suscipit massa aliquam proin amet",
+    "content": "Luctus felis sit lectus tristique diam ornare bibendum. Arcu auctor suspendisse luctus amet bibendum pellentesque lorem. Malesuada lobortis tristique tortor,",
     "actions": [
       {
         "link": "Get Started",
@@ -41,7 +41,7 @@
     "header": "feature header 1",
     "content": "feature content 1",
     "type": "feature_1",
-    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
+    "image": "https://peprojects.dev/images/landscape.jpg",
     "articles": [
       {
         "title": "article title 1",

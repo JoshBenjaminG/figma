@@ -1,9 +1,18 @@
 p, h1, h2, h3, a {
 	font-family: 'Roboto', sans-serif;
+	letter-spacing: ;
+	line-height: 1.5;
+	text-align: center;
 }
 
-.loud-voice, h1 {
-	font-size: 2em;
+.announce-voice {
+	font-size: clamp(32px, 10vw, 64px);
+	font-weight: 500;
+}
+
+.loud-voice {
+	font-size: clamp(28px, 8vw, 55px);
+	font-weight: 500;
 }
 
 .medium-voice, h2 {
@@ -11,6 +20,7 @@ p, h1, h2, h3, a {
 }
 
 .calm-voice, p, a {
-	font-size: .9em;
-	letter-spacing: 1px;
+	max-width: 60ch;
+	font-size: clamp(14px, 1.5vw, 18px);
+	color: rgba(0, 0, 0, 0.8);
 }

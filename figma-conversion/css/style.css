@@ -32,7 +32,7 @@
 @import 'modules/FAQ.css';
 
 .logo { 
-  max-width: 150px;
+  width: 150px;
 }
 
 :root {

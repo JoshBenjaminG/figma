@@ -10,7 +10,7 @@ $style = $module["type"];
 <section class="FAQ">
 <inner-column>
 	<landing class="<?=$style?>">
-		<h1><?=$header?></h1>
+		<h1 class="loud-voice"><?=$header?></h1>
 		<p><?=$content?></p>
 		<div>
 			<?php foreach($details as $detail) { ?>

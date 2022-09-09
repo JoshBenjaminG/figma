@@ -11,7 +11,7 @@ $articles = $module["articles"];
 <section class="feature">
 <inner-column>
 	<landing class="<?=$style?>">
-		<h1><?=$header?></h1>
+		<h1 class="loud-voice"><?=$header?></h1>
 		<p><?=$content?></p>
 		<picture>
 			<img src="<?=$image?>" alt="">feature
