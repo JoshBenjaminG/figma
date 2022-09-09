@@ -14,13 +14,9 @@ $reviews = $module["reviews"];
 		<h1><?=$header?></h1>
 		<p><?=$content?></p>
 		<div>
-			<?php foreach($reviews as $review) { ?>
-					<article>
-						<h3><?=$review["rating"]?></h3>
-						<p><?=$review["content"]?></p>
-						<p><?=$review["name"]?></p>
-					</article>
-			<?php } ?>
+			<?php foreach($reviews as $review) { 
+				include('client-card.php');
+			 } ?>
 		</div>
 	</clients>
 </inner-column>
