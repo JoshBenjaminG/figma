@@ -30,6 +30,7 @@
 @import 'modules/clients.css';
 @import 'modules/call-to-action.css';
 @import 'modules/FAQ.css';
+@import 'modules/feature.css';
 
 .logo { 
   width: 150px;

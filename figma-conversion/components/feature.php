@@ -10,20 +10,26 @@ $articles = $module["articles"];
 
 <section class="feature">
 <inner-column>
-	<landing class="<?=$style?>">
-		<h1 class="loud-voice"><?=$header?></h1>
-		<p><?=$content?></p>
-		<picture>
-			<img src="<?=$image?>" alt="">
-		</picture>
-		<div>
+	<feature class="<?=$style?>">
+		<div class="qwer">
+			<text-content>
+				<h1 class="loud-voice"><?=$header?></h1>
+				<p><?=$content?></p>
+			</text-content>
+			<picture>
+				<img src="<?=$image?>" alt="">
+			</picture>
+		</div>
+		<article-grid>
 			<?php foreach($articles as $article) { ?>
 					<article>
-						<h3><?=$article["title"]?></h3>
-						<p><?=$article["content"]?></p>
+						<text-content>
+							<h3 class="medium-voice"><?=$article["title"]?></h3>
+							<p><?=$article["content"]?></p>
+						</text-content>
 					</article>
 			<?php } ?>
-		</div>
-	</landing>
+		</article-grid>
+	</feature>
 </inner-column>
 </section>

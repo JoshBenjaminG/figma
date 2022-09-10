@@ -11,6 +11,10 @@ main {
 	flex-grow:  1; /* push the footer down */
 }
 
+section {
+	display: block;
+}
+
 section inner-column {
 	display:  block;
 	max-width: 1100px; /* could be a variable in settings */
@@ -27,9 +31,10 @@ section inner-column{
 }
 
 text-content {
+	text-align: center;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin: 50px 0px;
-	gap: 15px;
+	margin-bottom: 30px;
 }
+
