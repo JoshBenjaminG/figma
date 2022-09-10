@@ -9,17 +9,19 @@ $style = $module["type"];
 
 <section class="FAQ">
 <inner-column>
-	<landing class="<?=$style?>">
-		<h1 class="loud-voice"><?=$header?></h1>
-		<p><?=$content?></p>
+	<faq class="<?=$style?>">
+		<text-content>
+			<h1 class="loud-voice"><?=$header?></h1>
+			<p><?=$content?></p>
+		</text-content>
 		<div>
 			<?php foreach($details as $detail) { ?>
 				<details>
-				    <summary><?=$detail["summary"]?></summary>
-				    <?=$detail["content"]?>
+				    <summary class="calm-voice"><?=$detail["summary"]?></summary>
+				    <p class="calm-voice"><?=$detail["content"]?></p>
 				</details>
 			<?php } ?>
 		</div>
-	</landing>
+	</faq>
 </inner-column>
 </section>

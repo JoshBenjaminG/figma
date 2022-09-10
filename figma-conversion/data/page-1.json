@@ -101,17 +101,29 @@
   },
   {
     "module": "FAQ",
-    "header": "FAQ header 1",
-    "content": "FAQ content 1",
+    "header": "Frequently Ask Questions",
+    "content": "Pellentesque cras adipiscing tempus libero vel nullam mauris tellus. Aliquam ultrices tellus consequat amet, lectus aliquam est in neque.",
     "type": "cta_1",
     "details": [
       {
-        "summary": "the summary",
-        "content": "the content"
+        "summary": "How soon will my order ship?",
+        "content": "Elementum ullamcorper felis nulla scelerisque. Nunc enim nunc mattis leo massa."
       },
       {
-        "summary": "the summary",
-        "content": "the content"
+        "summary": "Is there any warranty exclusions?",
+        "content": "Elementum ullamcorper felis nulla scelerisque. Nunc enim nunc mattis leo massa."
+      },
+      {
+        "summary": "Are there any return exclusions??",
+        "content": "Elementum ullamcorper felis nulla scelerisque. Nunc enim nunc mattis leo massa."
+      },
+      {
+        "summary": "Will I be charged for a replacement item?",
+        "content": "Elementum ullamcorper felis nulla scelerisque. Nunc enim nunc mattis leo massa."
+      },
+      {
+        "summary": "How can I track my orders & payment?",
+        "content": "Elementum ullamcorper felis nulla scelerisque. Nunc enim nunc mattis leo massa."
       }
     ]
   },

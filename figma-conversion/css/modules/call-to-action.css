@@ -1,5 +1,6 @@
 .call-to-action inner-column {
 	background-color: #f7f9ff;
+	min-height: 50vh;
 }
 
 call-to-action {

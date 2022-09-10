@@ -5,7 +5,9 @@ clients {
 	justify-content: center;
 }
 
-
+.clients inner-column {
+	min-height: 90vh;
+}
 
 .star {
 	width: 20px;
