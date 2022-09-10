@@ -1,6 +1,5 @@
 <?php 
 
-
 $header = $module["header"];
 $content = $module["content"];
 $style = $module["type"];
@@ -11,13 +10,15 @@ $reviews = $module["reviews"];
 <section class="clients">
 <inner-column>
 	<clients class="<?=$style?>">
-		<h1 class="loud-voice"><?=$header?></h1>
-		<p><?=$content?></p>
-		<div>
+		<text-content>
+			<h1 class="loud-voice"><?=$header?></h1>
+			<p><?=$content?></p>
+		</text-content>
+		<client-card>
 			<?php foreach($reviews as $review) { 
 				include('client-card.php');
 			 } ?>
-		</div>
+		</client-card>
 	</clients>
 </inner-column>
 </section>
