@@ -1,1 +1,11 @@
-call-to-action.css
+.call-to-action inner-column {
+	background-color: #f7f9ff;
+}
+
+call-to-action {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+

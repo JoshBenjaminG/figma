@@ -9,7 +9,7 @@ $actions = $module["actions"];
 
 <section class="call-to-action">
 <inner-column>
-	<clients class="<?=$style?>">
+	<call-to-action class="<?=$style?>">
 		<p><?=$content?></p>
 		<h1 class="loud-voice"><?=$header?></h1>
 		<div>
@@ -17,6 +17,6 @@ $actions = $module["actions"];
 					<button href="" class="<?=$action["link_class"]?>"><?=$action["link"]?></button>
 			<?php } ?>
 		</div>
-	</clients>
+	</call-to-action>
 </inner-column>
 </section>

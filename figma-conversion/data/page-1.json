@@ -89,13 +89,13 @@
   },
   {
     "module": "call-to-action",
-    "header": "cta header 1",
-    "content": "cta content 1",
+    "header": "Etiam Nulla Lectus Molestie At Vulputate.",
+    "content": "Rhoncus, accumsan dictum",
     "type": "cta_1",
     "actions": [
       {
         "link": "Get Free Quote",
-        "link_class": "blue-button"
+        "link_class": "blue-button-2"
       }
     ]
   },

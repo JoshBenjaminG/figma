@@ -10,3 +10,7 @@ landing div {
 	background-repeat: no-repeat;
   	background-size: cover;
 }
+
+.landing inner-column {
+	min-height: 90vh;
+}
