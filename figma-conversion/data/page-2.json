@@ -97,6 +97,10 @@
       {
         "link": "Get Free Quote",
         "link_class": "blue-button-2"
+      },
+      {
+        "link": "Free SignUp",
+        "link_class": "white-button"
       }
     ]
   },
