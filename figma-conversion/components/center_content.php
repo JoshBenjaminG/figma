@@ -11,7 +11,7 @@ $preHeader = $module["preheader"];
 	<center-content>
 		<?php if (isset($module["icon"])) { ?>
 			<picture class="icon">
-				<img src="<?=$icon?>" alt="">
+				<img src="<?=$module["icon"]?>" alt="">
 			</picture>
 		<?php } ?>
 		<text-content>
