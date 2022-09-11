@@ -4,3 +4,11 @@ center-content {
 	align-items: center;
 	justify-content: center;
 }
+
+.icon {
+	width: 50px;
+}
+
+center-content a {
+	color: #3563e9;
+}

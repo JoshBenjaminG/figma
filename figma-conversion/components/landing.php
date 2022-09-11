@@ -7,9 +7,9 @@ $style = $module["type"];
 
 ?>
 
-<section class="landing">
+<section class="<?=$style?>">
 <inner-column>
-	<landing class="<?=$style?>">
+	<landing>
 		<text-content>
 			<h1 class="announce-voice"><?=$header?></h1>
 			<p><?=$content?></p>

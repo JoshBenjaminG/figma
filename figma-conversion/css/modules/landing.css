@@ -15,3 +15,13 @@ landing div {
 .landing inner-column {
 	min-height: 90vh;
 }
+
+.landing_2 {
+	background-image: url("../page-2-background.svg");
+	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.landing_2 inner-column {
+	min-height: 90vh;
+}

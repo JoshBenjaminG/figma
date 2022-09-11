@@ -1,6 +1,5 @@
 <?php 
 
-$image = $module["image"];
 $header = $module["header"];
 $content = $module["content"];
 $style = $module["type"];
@@ -16,9 +15,11 @@ $articles = $module["articles"];
 				<h1 class="loud-voice"><?=$header?></h1>
 				<p><?=$content?></p>
 			</text-content>
+			<?php if (isset($module["img"])) { ?>
 			<picture>
-				<img src="<?=$image?>" alt="">
+				<img src="<?=$module["img"]?>" alt="">
 			</picture>
+		<?php } ?>
 		</div>
 		<article-grid>
 			<?php foreach($articles as $article) { ?>
@@ -28,7 +29,7 @@ $articles = $module["articles"];
 							<p><?=$article["content"]?></p>
 						</text-content>
 					</article>
-			<?php } ?>
+			<?php } ?>	
 		</article-grid>
 	</feature>
 </inner-column>

@@ -16,17 +16,13 @@
   },
   {
     "module": "landing",
-    "type": "landing_1",
+    "type": "landing_2",
     "header": "Arcu suscipit massa aliquam proin amet",
     "content": "Luctus felis sit lectus tristique diam ornare bibendum. Arcu auctor suspendisse luctus amet bibendum pellentesque lorem. Malesuada lobortis tristique tortor,",
     "actions": [
       {
         "link": "Get Started",
         "link_class": "blue-button-2"
-      },
-      {
-        "link": "Start Free trial",
-        "link_class": "white-button"
       }
     ]
   },
@@ -35,15 +31,17 @@
     "header": "Etiam Nulla Lectus Amet Nunc Molestie At Vulputate.",
     "content": "Lorem ipsum, dolor sit amet consectetur adipisicing, elit.",
     "preheader": "Lorem ipsum, dolor sit amet consectetur adipisicing, elit.",
-    "img": "https://peprojects.dev/images/landscape.jpg",
-    "type": "center_content_1"
+    "type": "center_content_1",
+    "icon" : "images/icon1.png",
+    "linkValue": "",
+    "linkText": "Learn More >"
   },
   {
     "module": "feature",
     "header": "Etiam Nulla Lectus Amet Nunc Molestie At Vulputate.",
     "content": "Lorem ipsum, dolor sit amet consectetur adipisicing, elit.",
     "type": "feature_1",
-    "image": "https://peprojects.dev/images/landscape.jpg",
+    "img": "https://peprojects.dev/images/landscape.jpg",
     "articles": [
       {
         "title": "Etiam Nulla Lectus Amet Nunc Molestie At Vulputate.",
