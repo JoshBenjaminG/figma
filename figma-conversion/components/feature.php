@@ -24,6 +24,7 @@ $articles = $module["articles"];
 		<article-grid>
 			<?php foreach($articles as $article) { ?>
 					<article>
+					<div class="circle"><p><?=$article["number"]?></p></div>
 						<text-content>
 							<h3 class="medium-voice"><?=$article["title"]?></h3>
 							<p><?=$article["content"]?></p>
