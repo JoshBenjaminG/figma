@@ -15,9 +15,9 @@ $style = $module["type"];
 
 				<nav class='links'>
 					<a href="">Home</a>
-					<a href="">Updates</a>
-					<a href="">Services</a>
-					<a href="">Features</a>
+					<a href="?page=page-1">Page 1</a>
+					<a href="?page=page-2">Page 2</a>
+					<a href="?page=page-3">Page 3</a>
 					<a href="">About Us</a>
 				</nav>
 

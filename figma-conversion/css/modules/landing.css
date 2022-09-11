@@ -9,6 +9,7 @@ landing div {
 	background-image: url("../page-1-background.svg");
 	background-repeat: no-repeat;
   	background-size: cover;
+  	/*background-color: red;*/
 }
 
 .landing inner-column {
