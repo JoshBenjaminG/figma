@@ -14,11 +14,9 @@ $style = $module["type"];
 				<nav><img src="images/logoipsum.svg" alt="" class="logo"></nav>
 
 				<nav class='links'>
-					<a href="">Home</a>
 					<a href="?page=page-1">Page 1</a>
 					<a href="?page=page-2">Page 2</a>
 					<a href="?page=page-3">Page 3</a>
-					<a href="">About Us</a>
 				</nav>
 
 				<nav class='links'>

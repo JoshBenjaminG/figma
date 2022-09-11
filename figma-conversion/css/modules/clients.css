@@ -22,7 +22,12 @@ card div {
 
 client-card {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
-
+	grid-template-columns: 1fr;
 	margin-top: 80px;
+}
+
+@media(min-width: 700px) {
+	client-card {
+		grid-template-columns: 1fr 1fr;
+	}
 }
