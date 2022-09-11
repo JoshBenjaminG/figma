@@ -27,7 +27,10 @@ client-card {
 }
 
 @media(min-width: 700px) {
-	client-card {
+	.clients_1 client-card {
 		grid-template-columns: 1fr 1fr;
 	}
 }
+
+
+
