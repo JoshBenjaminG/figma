@@ -26,7 +26,6 @@ details summary::-webkit-details-marker {
 
 details[open]>summary {
     padding-bottom: 24px;
-
 }
 
 details[open]>summary::marker {
