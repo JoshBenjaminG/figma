@@ -5,10 +5,6 @@
     "type": "header_1",
     "actions": [ 
       {
-        "link": "EN",
-        "link_class": ""
-      },
-      {
         "link": "LogIn",
         "link_class": "blue-button"
       }
@@ -131,8 +127,5 @@
         "content": "Elementum ullamcorper felis nulla scelerisque. Nunc enim nunc mattis leo massa."
       }
     ]
-  },
-  {
-    "module": "footer"
   }
 ]

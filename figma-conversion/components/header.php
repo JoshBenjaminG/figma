@@ -16,7 +16,6 @@ $style = $module["type"];
 				<nav class='links'>
 					<a href="?page=page-1">Page 1</a>
 					<a href="?page=page-2">Page 2</a>
-					<a href="?page=page-3">Page 3</a>
 				</nav>
 
 				<nav class='links'>
